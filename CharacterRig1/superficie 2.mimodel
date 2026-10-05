@@ -1,0 +1,27 @@
+{
+	"name": "COSAS",
+	"texture": "joder no lo se - copia.png",
+	"texture_size": [ 64, 64 ],
+	"parts": [
+		{
+			"name": "New part",
+			"position": [ 0, 0, 0 ],
+			"bend": {
+				"offset": 7,
+				"size": 40.7,
+				"part": "upper",
+				"axis": "x",
+				"invert": true
+			},
+			"shapes": [
+				{
+					"type": "plane",
+					"from": [ -3.985, 1.505, 0 ],
+					"to": [ 3.985, 14.495, 0 ],
+					"uv": [ 21.00, 18.00 ],
+					"3d": true
+				}
+			]
+		}
+	]
+}

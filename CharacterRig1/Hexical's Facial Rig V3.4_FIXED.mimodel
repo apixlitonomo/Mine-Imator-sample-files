@@ -1,0 +1,2046 @@
+{
+	"name": "Hexical's Facial Rig V3.4",
+	"texture": "FaceRigModel.png",
+	"texture_size": [ 140, 140 ],
+	"parts": [
+		{
+			"name": "Eyes",
+			"depth": -4,
+			"position": [ 0, 2.25, 4 ],
+			"parts": [
+				{
+					"name": "Iris' (Colour)",
+					"depth": -6,
+					"position": [ 0, 0.75, 0 ],
+					"show_position": 1,
+					"parts": [
+						{
+							"name": "Right",
+							"depth": -6,
+							"position": [ -1.125, 0, -0.02 ],
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -33, -16.5, -1 ],
+									"to": [ 0, 16.5, -1 ],
+									"uv": [ 99, 33 ],
+									"scale": [ 0.025, 0.05, 0.07 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Shine",
+									"depth": -6,
+									"position": [ -0.2195, 0.55, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"color_brightness": 1,
+											"from": [ -8, -8, -0.85 ],
+											"to": [ 8, 8, -0.85 ],
+											"uv": [ 100, 16 ],
+											"scale": [ 0.0189, 0.0189, 0.0378 ],
+											"3d": true
+										}
+									]
+								},
+								{
+									"name": " ",
+									"depth": -7,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "_2",
+											"color_blend": "#E0E0E0",
+											"from": [ -58, -33, -0.15 ],
+											"to": [ 8, 33, -0.15 ],
+											"uv": [ 0, 66 ],
+											"scale": [ 0.0166, 0.032, 0.07 ]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Left",
+							"depth": -6,
+							"position": [ 1.125, 0, -0.02 ],
+							"shapes": [
+								{
+									"type": "plane",
+									"description": "_2",
+									"from": [ 0, -16.5, -1 ],
+									"to": [ 33, 16.5, -1 ],
+									"uv": [ 66, 33 ],
+									"scale": [ 0.025, 0.05, 0.07 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Shine_",
+									"depth": -6,
+									"position": [ 0.593, 0.55, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "_2",
+											"color_brightness": 1,
+											"from": [ -8, -8, -0.85 ],
+											"to": [ 8, 8, -0.85 ],
+											"uv": [ 67, 16 ],
+											"scale": [ 0.0189, 0.0189, 0.0378 ],
+											"3d": true
+										}
+									]
+								},
+								{
+									"name": " _",
+									"depth": -7,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "_2_2",
+											"color_blend": "#E0E0E0",
+											"from": [ -8, -33, -0.15 ],
+											"to": [ 58, 33, -0.15 ],
+											"uv": [ 0, 66 ],
+											"scale": [ 0.0166, 0.032, 0.07 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Eye Sockets (Colour)",
+					"depth": -4,
+					"position": [ 0, 0, 0 ],
+					"show_position": 1,
+					"parts": [
+						{
+							"name": "EyeBrows (Colour)",
+							"position": [ 0, 0.75, 0 ],
+							"parts": [
+								{
+									"name": "right_brow_(bend)",
+									"position": [ -2.75, 1.625, 0 ],
+									"rotation": [ 0, -90, 0 ],
+									"bend": {
+										"offset": -0.25,
+										"size": 0.5,
+										"part": "back",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.5, -0.5, -1.12 ],
+											"to": [ 0.5, 0.5, 0.88 ],
+											"uv": [ 112, 4 ],
+											"scale": [ 0.08, 0.25, 0.45 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.5, -1, 0 ],
+											"to": [ 0.5, 0, 1 ],
+											"uv": [ 124, 2 ],
+											"position": [ 0, -0.1, 0.375 ],
+											"scale": [ 0.08, 0.25, 0.25 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "right_brow1",
+											"position": [ 0, 0, -0.5 ],
+											"bend": {
+												"offset": -0.25,
+												"size": 0.5,
+												"part": "back",
+												"axis": "x"
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2_2",
+													"from": [ -0.5, -0.5, -1 ],
+													"to": [ 0.5, 0.5, 0 ],
+													"uv": [ 116, 2 ],
+													"scale": [ 0.08, 0.25, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "right_brow2",
+													"position": [ 0, 0, -0.5 ],
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2_2_2",
+															"from": [ -0.5, -0.5, -2 ],
+															"to": [ 0.5, 0.5, 0 ],
+															"uv": [ 120, 4 ],
+															"scale": [ 0.08, 0.25, 0.425 ]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "left_brow_(bend)",
+									"position": [ 2.75, 1.625, 0 ],
+									"rotation": [ 0, 90, 0 ],
+									"bend": {
+										"offset": -0.25,
+										"size": 0.5,
+										"part": "back",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ -0.5, -0.5, -1.12 ],
+											"to": [ 0.5, 0.5, 0.88 ],
+											"uv": [ 79, 4 ],
+											"scale": [ 0.08, 0.25, 0.45 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.5, -1, 0 ],
+											"to": [ 0.5, 0, 1 ],
+											"uv": [ 91, 2 ],
+											"position": [ 0, -0.1, 0.375 ],
+											"scale": [ 0.08, 0.25, 0.25 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "left_brow1",
+											"position": [ 0, 0, -0.5 ],
+											"bend": {
+												"offset": -0.25,
+												"size": 0.5,
+												"part": "back",
+												"axis": "x"
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2_2_2",
+													"from": [ -0.5, -0.5, -1 ],
+													"to": [ 0.5, 0.5, 0 ],
+													"uv": [ 83, 2 ],
+													"scale": [ 0.08, 0.25, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "left_brow2",
+													"position": [ 0, 0, -0.5 ],
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2_2_2_2",
+															"from": [ -0.5, -0.5, -2 ],
+															"to": [ 0.5, 0.5, 0 ],
+															"uv": [ 87, 4 ],
+															"scale": [ 0.08, 0.25, 0.425 ]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Right Socket",
+							"depth": -4,
+							"position": [ -2, 0.75, 0 ],
+							"shapes": [
+								{
+									"type": "block",
+									"color_alpha": 0.01,
+									"from": [ -2, -2, -0.75 ],
+									"to": [ 2, 2, 0.25 ],
+									"uv": [ 67, 1 ],
+									"scale": [ 0.5, 0.5, 0.125 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Eyelids",
+									"depth": -5,
+									"position": [ 0, -0.75, -0.01 ],
+									"parts": [
+										{
+											"name": "Top",
+											"depth": -5,
+											"position": [ 0, 1.75, 0 ],
+											"rotation": [ 0, 90, 0 ],
+											"bend": {
+												"offset": 0.25,
+												"size": 0.5,
+												"part": "front",
+												"axis": "x",
+												"invert": true
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ 0, 0, 0 ],
+													"to": [ 1, 2, 1 ],
+													"uv": [ 91, 7 ],
+													"scale": [ 0.75, 0.75, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Top_",
+													"depth": -5,
+													"position": [ 0, 0, 0.5 ],
+													"bend": {
+														"offset": 0.25,
+														"size": 0.5,
+														"part": "front",
+														"axis": "x",
+														"invert": true
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, 0, 0 ],
+															"to": [ 1, 2, 1 ],
+															"uv": [ 92, 7 ],
+															"scale": [ 0.75, 0.75, 0.75 ]
+														}
+													]
+												},
+												{
+													"name": "Top__",
+													"depth": -5,
+													"position": [ 0, 0, 0 ],
+													"lock_bend": 0,
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, 0, -1 ],
+															"to": [ 1, 2, 0 ],
+															"uv": [ 93, 7 ],
+															"scale": [ 0.75, 0.75, 0.5 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Top___",
+															"depth": -5,
+															"position": [ 0, 0, -0.5 ],
+															"bend": {
+																"offset": -0.25,
+																"size": 0.5,
+																"part": "back",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ 0, 0, -1 ],
+																	"to": [ 1, 2, 0 ],
+																	"uv": [ 94, 7 ],
+																	"scale": [ 0.75, 0.75, 0.75 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Bottom",
+											"depth": -5,
+											"position": [ 0, -0.25, 0 ],
+											"rotation": [ 0, 90, 0 ],
+											"bend": {
+												"offset": 0.25,
+												"size": 0.5,
+												"part": "front",
+												"axis": "x",
+												"invert": true
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ 0, -1, 0 ],
+													"to": [ 1, 0, 1 ],
+													"uv": [ 91, 11 ],
+													"scale": [ 0.75, 0.25, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Bottom_",
+													"depth": -5,
+													"position": [ 0, 0, 0.5 ],
+													"bend": {
+														"offset": 0.25,
+														"size": 0.5,
+														"part": "front",
+														"axis": "x",
+														"invert": true
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, -1, 0 ],
+															"to": [ 1, 0, 1 ],
+															"uv": [ 92, 11 ],
+															"scale": [ 0.75, 0.25, 0.75 ]
+														}
+													]
+												},
+												{
+													"name": "Bottom__",
+													"depth": -5,
+													"position": [ 0, 0, 0 ],
+													"lock_bend": 0,
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, -1, -1 ],
+															"to": [ 1, 0, 0 ],
+															"uv": [ 93, 11 ],
+															"scale": [ 0.75, 0.25, 0.5 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Bottom___",
+															"depth": -5,
+															"position": [ 0, 0, -0.5 ],
+															"bend": {
+																"offset": -0.25,
+																"size": 0.5,
+																"part": "back",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ 0, -1, -1 ],
+																	"to": [ 1, 0, 0 ],
+																	"uv": [ 94, 11 ],
+																	"scale": [ 0.75, 0.25, 0.75 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Lash",
+									"position": [ 0, 1, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -4, -0.5, -0.5 ],
+											"to": [ 4, 0.5, 0.5 ],
+											"uv": [ 67, 6 ],
+											"position": [ 0.006, 0, 0 ],
+											"rotation": [ 0, 0, -2.075 ],
+											"scale": [ 0.25, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ -1, -1, -0.5 ],
+											"to": [ 0, 0, 0.5 ],
+											"uv": [ 67, 8 ],
+											"position": [ -0.99, 0.123, 0 ],
+											"rotation": [ 0, 0, 9.1302 ],
+											"scale": [ 0.1, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2",
+											"from": [ 0, -1, -0.5 ],
+											"to": [ 4, 0, 0.5 ],
+											"uv": [ 67, 10 ],
+											"position": [ -1.06, -0.065, 0 ],
+											"rotation": [ 0, 0, 20.6954 ],
+											"scale": [ 0.1, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2",
+											"from": [ 0, -0.5, -0.5 ],
+											"to": [ 7, 0.5, 0.5 ],
+											"uv": [ 67, 12 ],
+											"position": [ -0.8417, -0.0938, 0 ],
+											"rotation": [ 0, 0, 7.2445 ],
+											"scale": [ 0.1, 0.125, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 86, 11 ],
+											"position": [ -1.0207, 0.0391, 0 ],
+											"rotation": [ 0, 0, 71.565 ],
+											"scale": [ 0.1, 0.25, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 86, 9 ],
+											"position": [ -0.8039, 0.0599, 0 ],
+											"rotation": [ 0, 0, 52.125 ],
+											"scale": [ 0.1, 0.4, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 86, 7 ],
+											"position": [ -0.6087, 0.0802, 0 ],
+											"rotation": [ 0, 0, 41.6933 ],
+											"scale": [ 0.1, 0.3, 0.05 ]
+										}
+									]
+								},
+								{
+									"name": "Eyeball",
+									"depth": -8,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -33, -33, -3 ],
+											"to": [ 33, 33, -3 ],
+											"uv": [ 0, 0 ],
+											"scale": [ 0.0314, 0.0314, 0.0314 ],
+											"3d": true
+										}
+									]
+								},
+								{
+									"name": "_",
+									"depth": -5,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ -2, -2, -0.75 ],
+											"to": [ 2, 2, 0.25 ],
+											"uv": [ 67, 1 ],
+											"scale": [ 0.5, 0.5, 0.125 ],
+											"invert": true
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Left Socket",
+							"depth": -4,
+							"position": [ 2, 0.75, 0 ],
+							"shapes": [
+								{
+									"type": "block",
+									"description": "_2",
+									"color_alpha": 0.01,
+									"from": [ -2, -2, -0.75 ],
+									"to": [ 2, 2, 0.25 ],
+									"uv": [ 100, 1 ],
+									"scale": [ 0.5, 0.5, 0.125 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Eyelids_",
+									"depth": -5,
+									"position": [ 0, -0.75, -0.01 ],
+									"parts": [
+										{
+											"name": "Top____",
+											"depth": -5,
+											"position": [ 0, 1.75, 0 ],
+											"rotation": [ 0, 90, 0 ],
+											"bend": {
+												"offset": 0.25,
+												"size": 0.5,
+												"part": "front",
+												"axis": "x",
+												"invert": true
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ 0, 0, 0 ],
+													"to": [ 1, 2, 1 ],
+													"uv": [ 124, 7 ],
+													"scale": [ 0.75, 0.75, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Top_____",
+													"depth": -5,
+													"position": [ 0, 0, 0.5 ],
+													"bend": {
+														"offset": 0.25,
+														"size": 0.5,
+														"part": "front",
+														"axis": "x",
+														"invert": true
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, 0, 0 ],
+															"to": [ 1, 2, 1 ],
+															"uv": [ 125, 7 ],
+															"scale": [ 0.75, 0.75, 0.75 ]
+														}
+													]
+												},
+												{
+													"name": "Top______",
+													"depth": -5,
+													"position": [ 0, 0, 0 ],
+													"lock_bend": 0,
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, 0, -1 ],
+															"to": [ 1, 2, 0 ],
+															"uv": [ 126, 7 ],
+															"scale": [ 0.75, 0.75, 0.5 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Top_______",
+															"depth": -5,
+															"position": [ 0, 0, -0.5 ],
+															"bend": {
+																"offset": -0.25,
+																"size": 0.5,
+																"part": "back",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ 0, 0, -1 ],
+																	"to": [ 1, 2, 0 ],
+																	"uv": [ 127, 7 ],
+																	"scale": [ 0.75, 0.75, 0.75 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Bottom____",
+											"depth": -5,
+											"position": [ 0, -0.25, 0 ],
+											"rotation": [ 0, 90, 0 ],
+											"bend": {
+												"offset": 0.25,
+												"size": 0.5,
+												"part": "front",
+												"axis": "x",
+												"invert": true
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ 0, -1, 0 ],
+													"to": [ 1, 0, 1 ],
+													"uv": [ 124, 11 ],
+													"scale": [ 0.75, 0.25, 0.5 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Bottom_____",
+													"depth": -5,
+													"position": [ 0, 0, 0.5 ],
+													"bend": {
+														"offset": 0.25,
+														"size": 0.5,
+														"part": "front",
+														"axis": "x",
+														"invert": true
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, -1, 0 ],
+															"to": [ 1, 0, 1 ],
+															"uv": [ 125, 11 ],
+															"scale": [ 0.75, 0.25, 0.75 ]
+														}
+													]
+												},
+												{
+													"name": "Bottom______",
+													"depth": -5,
+													"position": [ 0, 0, 0 ],
+													"lock_bend": 0,
+													"bend": {
+														"offset": -0.25,
+														"size": 0.5,
+														"part": "back",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ 0, -1, -1 ],
+															"to": [ 1, 0, 0 ],
+															"uv": [ 126, 11 ],
+															"scale": [ 0.75, 0.25, 0.5 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Bottom_______",
+															"depth": -5,
+															"position": [ 0, 0, -0.5 ],
+															"bend": {
+																"offset": -0.25,
+																"size": 0.5,
+																"part": "back",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ 0, -1, -1 ],
+																	"to": [ 1, 0, 0 ],
+																	"uv": [ 127, 11 ],
+																	"scale": [ 0.75, 0.25, 0.75 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Lash_",
+									"position": [ 0, 1, 0 ],
+									"rotation": [ 0, 180, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2_2_2_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 119, 7 ],
+											"position": [ -0.6087, 0.0802, 0 ],
+											"rotation": [ 0, 0, 41.6933 ],
+											"scale": [ 0.1, 0.3, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 119, 9 ],
+											"position": [ -0.8039, 0.0599, 0 ],
+											"rotation": [ 0, 0, 52.125 ],
+											"scale": [ 0.1, 0.4, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2",
+											"from": [ -0.5, 0, -0.5 ],
+											"to": [ 0.5, 1, 0.5 ],
+											"uv": [ 119, 11 ],
+											"position": [ -1.0207, 0.0391, 0 ],
+											"rotation": [ 0, 0, 71.565 ],
+											"scale": [ 0.1, 0.25, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ -4, -0.5, -0.5 ],
+											"to": [ 4, 0.5, 0.5 ],
+											"uv": [ 100, 6 ],
+											"position": [ 0.006, 0, 0 ],
+											"rotation": [ 0, 0, -2.075 ],
+											"scale": [ 0.25, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2",
+											"from": [ -1, -1, -0.5 ],
+											"to": [ 0, 0, 0.5 ],
+											"uv": [ 100, 8 ],
+											"position": [ -0.99, 0.123, 0 ],
+											"rotation": [ 0, 0, 9.1302 ],
+											"scale": [ 0.1, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2",
+											"from": [ 0, -1, -0.5 ],
+											"to": [ 4, 0, 0.5 ],
+											"uv": [ 100, 10 ],
+											"position": [ -1.06, -0.065, 0 ],
+											"rotation": [ 0, 0, 20.6954 ],
+											"scale": [ 0.1, 0.175, 0.05 ]
+										},
+										{
+											"type": "block",
+											"description": "_2_2_2_2",
+											"from": [ 0, -0.5, -0.5 ],
+											"to": [ 7, 0.5, 0.5 ],
+											"uv": [ 100, 12 ],
+											"position": [ -0.8417, -0.0938, 0 ],
+											"rotation": [ 0, 0, 7.2445 ],
+											"scale": [ 0.1, 0.125, 0.05 ]
+										}
+									]
+								},
+								{
+									"name": "Eyeball_",
+									"depth": -8,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "_2",
+											"from": [ -33, -33, -3 ],
+											"to": [ 33, 33, -3 ],
+											"uv": [ 0, 0 ],
+											"scale": [ 0.0314, 0.0314, 0.0314 ],
+											"3d": true
+										}
+									]
+								},
+								{
+									"name": "__",
+									"depth": -5,
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2_2",
+											"from": [ -2, -2, -0.75 ],
+											"to": [ 2, 2, 0.25 ],
+											"uv": [ 100, 1 ],
+											"scale": [ 0.5, 0.5, 0.125 ],
+											"invert": true
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mouth (Colour)",
+			"depth": -1,
+			"position": [ 0, 1.193, 4 ],
+			"show_position": 1,
+			"bend": {
+				"offset": 0,
+				"part": "right",
+				"axis": "x",
+				"direction_min": -11,
+				"direction_max": 11
+			},
+			"parts": [
+				{
+					"name": "Right_",
+					"depth": -1,
+					"position": [ 0, 0, 0 ],
+					"rotation": [ 0, -90, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": 0.19,
+						"size": 0.38,
+						"inherit_bend": 1,
+						"part": "front",
+						"axis": "x"
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"color_alpha": 0.01,
+							"from": [ -0.5, -2, 0 ],
+							"to": [ 0.5, 2, 1.5 ],
+							"uv": [ 121, 89 ],
+							"scale": [ 0.02, 0.45, 0.25 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "Right__",
+							"depth": -1,
+							"position": [ 0, 0, 0.375 ],
+							"bend": {
+								"offset": 0.19,
+								"size": 0.38,
+								"inherit_bend": 1,
+								"part": "front",
+								"axis": "x"
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"color_alpha": 0.01,
+									"from": [ -0.5, -2, 0 ],
+									"to": [ 0.5, 2, 1.5 ],
+									"uv": [ 121, 89 ],
+									"scale": [ 0.02, 0.4125, 0.25 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Right___",
+									"depth": -1,
+									"position": [ 0, 0, 0.375 ],
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"inherit_bend": 1,
+										"part": "front",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"color_alpha": 0.01,
+											"from": [ -0.5, -2, 0 ],
+											"to": [ 0.5, 2, 1.5 ],
+											"uv": [ 128, 89 ],
+											"scale": [ 0.02, 0.375, 0.25 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "Right____",
+											"depth": -1,
+											"position": [ 0, 0, 0.375 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"inherit_bend": 1,
+												"part": "front",
+												"axis": "x"
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"color_alpha": 0.01,
+													"from": [ -0.5, -2, 0 ],
+													"to": [ 0.5, 2, 1.5 ],
+													"uv": [ 128, 89 ],
+													"scale": [ 0.02, 0.35, 0.25 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Right_____",
+													"depth": -1,
+													"position": [ 0, 0, 0.375 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"inherit_bend": 1,
+														"part": "front",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"color_alpha": 0.01,
+															"from": [ -0.5, -2, 0 ],
+															"to": [ 0.5, 2, 1.5 ],
+															"uv": [ 128, 89 ],
+															"scale": [ 0.02, 0.25, 0.25 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Right______",
+															"depth": -1,
+															"position": [ 0, 0, 0.375 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"inherit_bend": 1,
+																"part": "front",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"color_alpha": 0.01,
+																	"from": [ -0.5, -2, 0 ],
+																	"to": [ 0.5, 2, 1.5 ],
+																	"uv": [ 128, 89 ],
+																	"scale": [ 0.02, 0.1, 0.25 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Left_",
+					"depth": -1,
+					"position": [ 0, 0, 0 ],
+					"rotation": [ 0, 90, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": 0.19,
+						"size": 0.38,
+						"inherit_bend": 1,
+						"part": "front",
+						"axis": "x"
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"color_alpha": 0.01,
+							"from": [ -0.5, -2, 0 ],
+							"to": [ 0.5, 2, 1.5 ],
+							"uv": [ 121, 89 ],
+							"scale": [ 0.02, 0.45, 0.25 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "Left__",
+							"depth": -1,
+							"position": [ 0, 0, 0.375 ],
+							"bend": {
+								"offset": 0.19,
+								"size": 0.38,
+								"inherit_bend": 1,
+								"part": "front",
+								"axis": "x"
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"color_alpha": 0.01,
+									"from": [ -0.5, -2, 0 ],
+									"to": [ 0.5, 2, 1.5 ],
+									"uv": [ 121, 89 ],
+									"scale": [ 0.02, 0.4125, 0.25 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Left___",
+									"depth": -1,
+									"position": [ 0, 0, 0.375 ],
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"inherit_bend": 1,
+										"part": "front",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"color_alpha": 0.01,
+											"from": [ -0.5, -2, 0 ],
+											"to": [ 0.5, 2, 1.5 ],
+											"uv": [ 128, 89 ],
+											"scale": [ 0.02, 0.375, 0.25 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "Left____",
+											"depth": -1,
+											"position": [ 0, 0, 0.375 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"inherit_bend": 1,
+												"part": "front",
+												"axis": "x"
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"color_alpha": 0.01,
+													"from": [ -0.5, -2, 0 ],
+													"to": [ 0.5, 2, 1.5 ],
+													"uv": [ 128, 89 ],
+													"scale": [ 0.02, 0.35, 0.25 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Left_____",
+													"depth": -1,
+													"position": [ 0, 0, 0.375 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"inherit_bend": 1,
+														"part": "front",
+														"axis": "x"
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"color_alpha": 0.01,
+															"from": [ -0.5, -2, 0 ],
+															"to": [ 0.5, 2, 1.5 ],
+															"uv": [ 128, 89 ],
+															"scale": [ 0.02, 0.25, 0.25 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Left______",
+															"depth": -1,
+															"position": [ 0, 0, 0.375 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"inherit_bend": 1,
+																"part": "front",
+																"axis": "x"
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"color_alpha": 0.01,
+																	"from": [ -0.5, -2, 0 ],
+																	"to": [ 0.5, 2, 1.5 ],
+																	"uv": [ 128, 89 ],
+																	"scale": [ 0.02, 0.1, 0.25 ]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tongue",
+					"depth": -3,
+					"position": [ 0, -0.67, -3.558 ],
+					"rotation": [ 0, 180, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -0.7,
+						"size": 1,
+						"part": "back",
+						"axis": [ "x", "y", "z" ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -6, -1, -6 ],
+							"to": [ 6, 1, 0 ],
+							"uv": [ 80, 101 ],
+							"scale": [ 0.2, 0.2, 0.2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "Tongue1",
+							"depth": -3,
+							"position": [ 0, 0, -1.2 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 1,
+								"part": "back",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"description": "_2",
+									"from": [ -6, -1, -5 ],
+									"to": [ 6, 1, 0 ],
+									"uv": [ 80, 93 ],
+									"scale": [ 0.2, 0.2, 0.2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Tongue2",
+									"depth": -3,
+									"position": [ 0, 0, -1 ],
+									"bend": {
+										"offset": -0.4,
+										"size": 0.8,
+										"part": "back",
+										"axis": [ "x", "y", "z" ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2_2",
+											"from": [ -6, -1, -5 ],
+											"to": [ 6, 1, 0 ],
+											"uv": [ 80, 86 ],
+											"scale": [ 0.2, 0.2, 0.2 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "   ",
+					"depth": -2,
+					"position": [ 0, 0, 0 ],
+					"lock_bend": 0,
+					"parts": [
+						{
+							"name": "TopLip",
+							"depth": -2,
+							"position": [ 0, 0.8, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"bend": {
+								"offset": 0.19,
+								"size": 0.38,
+								"part": "front",
+								"axis": "x",
+								"angle": 8
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"description": "_2",
+									"from": [ 0.05, 0, -0.75 ],
+									"to": [ 2.05, 6, 0.75 ],
+									"uv": [ 129, 78 ],
+									"position": [ 0, 0, 0.2 ],
+									"scale": [ 0.1, 0.1, 0.275 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "TopLip_",
+									"depth": -2,
+									"position": [ 0, 0, 0.4 ],
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"part": "front",
+										"axis": "x",
+										"angle": 8
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ 0.05, 0, -0.75 ],
+											"to": [ 2.05, 6, 0.75 ],
+											"uv": [ 129, 78 ],
+											"position": [ 0, 0, 0.2 ],
+											"scale": [ 0.1, 0.1, 0.275 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "TopLip__",
+											"depth": -2,
+											"position": [ 0, 0, 0.4 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"part": "front",
+												"axis": "x",
+												"angle": 8
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 0, -0.75 ],
+													"to": [ 2.05, 6, 0.75 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"scale": [ 0.1, 0.13, 0.275 ]
+												},
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 0, 0.95 ],
+													"to": [ 2.05, 6, 2.45 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"scale": [ 0.1, 0.15, 0.575 ]
+												},
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 24.5, 2.65 ],
+													"to": [ 2.05, 30.5, 4.15 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"scale": [ 0.1, 0.035, 0.275 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "TopLip___",
+													"depth": -2,
+													"position": [ 0, 0, 0.4 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"part": "front",
+														"axis": "x",
+														"angle": 8
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 0, -0.75 ],
+															"to": [ 2.05, 6, 0.75 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"scale": [ 0.1, 0.13, 0.275 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "TopLip____",
+															"depth": -2,
+															"position": [ 0, 0, 0.4 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"part": "front",
+																"axis": "x",
+																"angle": 8
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"from": [ 0.05, 0, -0.75 ],
+																	"to": [ 2.05, 6, 0.75 ],
+																	"uv": [ 129, 78 ],
+																	"position": [ 0, 0, 0.2 ],
+																	"scale": [ 0.1, 0.16, 0.275 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "TopLip_____",
+																	"depth": -2,
+																	"position": [ 0, 0, 0.4 ],
+																	"bend": {
+																		"offset": 0.19,
+																		"size": 0.38,
+																		"part": "front",
+																		"axis": "x",
+																		"angle": 8
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"description": "_2",
+																			"from": [ 0.05, 0, -0.5 ],
+																			"to": [ 2.05, 6, 1 ],
+																			"uv": [ 129, 78 ],
+																			"position": [ 0, 0, 0.2 ],
+																			"scale": [ 0.1, 0.16, 0.4 ]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "TopLip______",
+									"depth": -2,
+									"position": [ 0, 0, 0 ],
+									"rotation": [ 0, -180, 0 ],
+									"lock_bend": 0,
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"part": "back",
+										"axis": "x",
+										"angle": 8
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ 0.05, 0, -0.75 ],
+											"to": [ 2.05, 6, 0.75 ],
+											"uv": [ 129, 78 ],
+											"position": [ 0, 0, 0.2 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 0.1, 0.1, 0.275 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "TopLip_______",
+											"depth": -2,
+											"position": [ 0, 0, 0.4 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"part": "back",
+												"axis": "x",
+												"angle": 8
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 0, -0.75 ],
+													"to": [ 2.05, 6, 0.75 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.1, 0.1, 0.275 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "TopLip________",
+													"depth": -2,
+													"position": [ 0, 0, 0.4 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"part": "back",
+														"axis": "x",
+														"angle": 8
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 0, -0.75 ],
+															"to": [ 2.05, 6, 0.75 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 0, 180, 0 ],
+															"scale": [ 0.1, 0.13, 0.275 ]
+														},
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 0, -2.45 ],
+															"to": [ 2.05, 6, -0.95 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 0, 180, 0 ],
+															"scale": [ 0.1, 0.15, 0.575 ]
+														},
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 24.5, -4.15 ],
+															"to": [ 2.05, 30.5, -2.65 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 0, 180, 0 ],
+															"scale": [ 0.1, 0.035, 0.275 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "TopLip_________",
+															"depth": -2,
+															"position": [ 0, 0, 0.4 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"part": "back",
+																"axis": "x",
+																"angle": 8
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"from": [ 0.05, 0, -0.75 ],
+																	"to": [ 2.05, 6, 0.75 ],
+																	"uv": [ 129, 78 ],
+																	"position": [ 0, 0, 0.2 ],
+																	"rotation": [ 0, 180, 0 ],
+																	"scale": [ 0.1, 0.13, 0.275 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "TopLip__________",
+																	"depth": -2,
+																	"position": [ 0, 0, 0.4 ],
+																	"bend": {
+																		"offset": 0.19,
+																		"size": 0.38,
+																		"part": "back",
+																		"axis": "x",
+																		"angle": 8
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"description": "_2",
+																			"from": [ 0.05, 0, -0.75 ],
+																			"to": [ 2.05, 6, 0.75 ],
+																			"uv": [ 129, 78 ],
+																			"position": [ 0, 0, 0.2 ],
+																			"rotation": [ 0, 180, 0 ],
+																			"scale": [ 0.1, 0.16, 0.275 ]
+																		}
+																	],
+																	"parts": [
+																		{
+																			"name": "TopLip___________",
+																			"depth": -2,
+																			"position": [ 0, 0, 0.4 ],
+																			"bend": {
+																				"offset": 0.19,
+																				"size": 0.38,
+																				"part": "back",
+																				"axis": "x",
+																				"angle": 8
+																			},
+																			"shapes": [
+																				{
+																					"type": "block",
+																					"description": "_2",
+																					"from": [ 0.05, 0, -1 ],
+																					"to": [ 2.05, 6, 0.5 ],
+																					"uv": [ 129, 78 ],
+																					"position": [ 0, 0, 0.2 ],
+																					"rotation": [ 0, 180, 0 ],
+																					"scale": [ 0.1, 0.16, 0.4 ]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "BottomLip",
+							"depth": -2,
+							"position": [ 0, -0.8, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"bend": {
+								"offset": 0.19,
+								"size": 0.38,
+								"part": "back",
+								"axis": "x",
+								"angle": -8
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"description": "_2",
+									"from": [ 0.05, 0, -0.75 ],
+									"to": [ 2.05, 6, 0.75 ],
+									"uv": [ 129, 78 ],
+									"position": [ 0, 0, 0.2 ],
+									"rotation": [ 180, 0, 0 ],
+									"scale": [ 0.1, 0.1, 0.275 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "BottomLip_",
+									"depth": -2,
+									"position": [ 0, 0, 0.4 ],
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"part": "back",
+										"axis": "x",
+										"angle": -8
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ 0.05, 0, -0.75 ],
+											"to": [ 2.05, 6, 0.75 ],
+											"uv": [ 129, 78 ],
+											"position": [ 0, 0, 0.2 ],
+											"rotation": [ 180, 0, 0 ],
+											"scale": [ 0.1, 0.1, 0.275 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "BottomLip__",
+											"depth": -2,
+											"position": [ 0, 0, 0.4 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"part": "back",
+												"axis": "x",
+												"angle": -8
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 0, -0.75 ],
+													"to": [ 2.05, 6, 0.75 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"rotation": [ 180, 0, 0 ],
+													"scale": [ 0.1, 0.13, 0.275 ]
+												},
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, -6, 0.95 ],
+													"to": [ 2.05, 0, 2.45 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"scale": [ 0.1, 0.15, 0.575 ]
+												},
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, -30.5, 2.65 ],
+													"to": [ 2.05, -24.5, 4.15 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"scale": [ 0.1, 0.035, 0.275 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "BottomLip___",
+													"depth": -2,
+													"position": [ 0, 0, 0.4 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"part": "back",
+														"axis": "x",
+														"angle": -8
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 0, -0.75 ],
+															"to": [ 2.05, 6, 0.75 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 180, 0, 0 ],
+															"scale": [ 0.1, 0.13, 0.275 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "BottomLip____",
+															"depth": -2,
+															"position": [ 0, 0, 0.4 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"part": "back",
+																"axis": "x",
+																"angle": -8
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"from": [ 0.05, 0, -0.75 ],
+																	"to": [ 2.05, 6, 0.75 ],
+																	"uv": [ 129, 78 ],
+																	"position": [ 0, 0, 0.2 ],
+																	"rotation": [ 180, 0, 0 ],
+																	"scale": [ 0.1, 0.16, 0.275 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "BottomLip_____",
+																	"depth": -2,
+																	"position": [ 0, 0, 0.4 ],
+																	"bend": {
+																		"offset": 0.19,
+																		"size": 0.38,
+																		"part": "back",
+																		"axis": "x",
+																		"angle": -8
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"description": "_2",
+																			"from": [ 0.05, 0, -1 ],
+																			"to": [ 2.05, 6, 0.5 ],
+																			"uv": [ 129, 78 ],
+																			"position": [ 0, 0, 0.2 ],
+																			"rotation": [ 180, 0, 0 ],
+																			"scale": [ 0.1, 0.16, 0.4 ]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "BottomLip______",
+									"depth": -2,
+									"position": [ 0, 0, 0 ],
+									"rotation": [ 0, -180, 0 ],
+									"lock_bend": 0,
+									"bend": {
+										"offset": 0.19,
+										"size": 0.38,
+										"part": "front",
+										"axis": "x",
+										"angle": -8
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"description": "_2",
+											"from": [ 0.05, 0, -0.75 ],
+											"to": [ 2.05, 6, 0.75 ],
+											"uv": [ 129, 78 ],
+											"position": [ 0, 0, 0.2 ],
+											"rotation": [ 180, 180, 0 ],
+											"scale": [ 0.1, 0.1, 0.275 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "BottomLip_______",
+											"depth": -2,
+											"position": [ 0, 0, 0.4 ],
+											"bend": {
+												"offset": 0.19,
+												"size": 0.38,
+												"part": "front",
+												"axis": "x",
+												"angle": -8
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"description": "_2",
+													"from": [ 0.05, 0, -0.75 ],
+													"to": [ 2.05, 6, 0.75 ],
+													"uv": [ 129, 78 ],
+													"position": [ 0, 0, 0.2 ],
+													"rotation": [ 180, 180, 0 ],
+													"scale": [ 0.1, 0.1, 0.275 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "BottomLip________",
+													"depth": -2,
+													"position": [ 0, 0, 0.4 ],
+													"bend": {
+														"offset": 0.19,
+														"size": 0.38,
+														"part": "front",
+														"axis": "x",
+														"angle": -8
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, 0, -0.75 ],
+															"to": [ 2.05, 6, 0.75 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 180, 180, 0 ],
+															"scale": [ 0.1, 0.13, 0.275 ]
+														},
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, -6, -2.45 ],
+															"to": [ 2.05, 0, -0.95 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 0, 180, 0 ],
+															"scale": [ 0.1, 0.15, 0.575 ]
+														},
+														{
+															"type": "block",
+															"description": "_2",
+															"from": [ 0.05, -30.5, -4.15 ],
+															"to": [ 2.05, -24.5, -2.65 ],
+															"uv": [ 129, 78 ],
+															"position": [ 0, 0, 0.2 ],
+															"rotation": [ 0, 180, 0 ],
+															"scale": [ 0.1, 0.035, 0.275 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "BottomLip_________",
+															"depth": -2,
+															"position": [ 0, 0, 0.4 ],
+															"bend": {
+																"offset": 0.19,
+																"size": 0.38,
+																"part": "front",
+																"axis": "x",
+																"angle": -8
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"description": "_2",
+																	"from": [ 0.05, 0, -0.75 ],
+																	"to": [ 2.05, 6, 0.75 ],
+																	"uv": [ 129, 78 ],
+																	"position": [ 0, 0, 0.2 ],
+																	"rotation": [ 180, 180, 0 ],
+																	"scale": [ 0.1, 0.13, 0.275 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "BottomLip__________",
+																	"depth": -2,
+																	"position": [ 0, 0, 0.4 ],
+																	"bend": {
+																		"offset": 0.19,
+																		"size": 0.38,
+																		"part": "front",
+																		"axis": "x",
+																		"angle": -8
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"description": "_2",
+																			"from": [ 0.05, 0, -0.75 ],
+																			"to": [ 2.05, 6, 0.75 ],
+																			"uv": [ 129, 78 ],
+																			"position": [ 0, 0, 0.2 ],
+																			"rotation": [ 180, 180, 0 ],
+																			"scale": [ 0.1, 0.16, 0.275 ]
+																		}
+																	],
+																	"parts": [
+																		{
+																			"name": "BottomLip___________",
+																			"depth": -2,
+																			"position": [ 0, 0, 0.4 ],
+																			"bend": {
+																				"offset": 0.19,
+																				"size": 0.38,
+																				"part": "front",
+																				"axis": "x",
+																				"angle": -8
+																			},
+																			"shapes": [
+																				{
+																					"type": "block",
+																					"description": "_2",
+																					"from": [ 0.05, 0, -0.5 ],
+																					"to": [ 2.05, 6, 1 ],
+																					"uv": [ 129, 78 ],
+																					"position": [ 0, 0, 0.2 ],
+																					"rotation": [ 180, 180, 0 ],
+																					"scale": [ 0.1, 0.16, 0.4 ]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Teeth",
+			"depth": -4,
+			"position": [ 0, 1.275, 4 ],
+			"show_position": 1,
+			"parts": [
+				{
+					"name": "top_row",
+					"depth": -4,
+					"position": [ 0, 0.7, -0.25 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -7.5, 0, -0.5 ],
+							"to": [ 7.5, 2, 0.5 ],
+							"uv": [ 77, 69 ],
+							"scale": [ 0.5, 0.5, 0.3125 ]
+						},
+						{
+							"type": "block",
+							"description": "_2",
+							"from": [ -7, -1, -0.5 ],
+							"to": [ 7, 0, 0.5 ],
+							"uv": [ 78, 72 ],
+							"scale": [ 0.5, 0.3125, 0.0625 ]
+						}
+					]
+				},
+				{
+					"name": "bottom_row",
+					"depth": -4,
+					"position": [ 0, -1.3, -0.25 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "_2",
+							"from": [ -7.5, -1, -0.5 ],
+							"to": [ 7.5, 0, 0.5 ],
+							"uv": [ 77, 77 ],
+							"scale": [ 0.5, 0.112, 0.4 ]
+						},
+						{
+							"type": "block",
+							"description": "_2_2",
+							"from": [ -7, 0, -0.5 ],
+							"to": [ 7, 1, 0.5 ],
+							"uv": [ 78, 75 ],
+							"scale": [ 0.5, 0.3125, 0.0625 ]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "  ",
+			"depth": -5,
+			"position": [ 0, 3, 4 ],
+			"lock_bend": 0,
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -8, 0, 0 ],
+					"to": [ 8, 5, 32 ],
+					"uv": [ 76, 135 ],
+					"position": [ 0, -3, -4 ],
+					"scale": [ 0.5, 0.75, 0.125 ],
+					"invert": true
+				}
+			]
+		}
+	]
+}
