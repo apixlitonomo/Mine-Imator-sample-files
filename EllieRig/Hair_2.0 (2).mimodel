@@ -1,0 +1,2028 @@
+{
+	"name": "Hair 2.0",
+	"texture": "ELLIE_HAIR.png",
+	"texture_size": [ 250, 250 ],
+	"parts": [
+		{
+			"name": "Hair Bend",
+			"position": [ 0, 0, 0 ],
+			"rotation": [ -5, 0, 0 ],
+			"scale": [ 1.05, 1.05, 1.05 ],
+			"bend": {
+				"offset": -1,
+				"size": 2,
+				"part": "lower",
+				"axis": [ "x", "y", "z" ],
+				"angle": [ 1.15296, 0, 0 ]
+			},
+			"shapes": [
+				{
+					"type": "plane",
+					"from": [ -8, -2, -0.5 ],
+					"to": [ 8, 0, -0.5 ],
+					"uv": [ 16, 162 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Skull",
+					"position": [ 3.25, -3.75, 0.5 ],
+					"rotation": [ 0, 5, 10 ],
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -5.5, -5.5, 0 ],
+							"to": [ 5.5, 5.5, 0 ],
+							"uv": [ 158, 18 ],
+							"scale": [ 0.5, 0.5, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"from": [ -5.5, -5.5, 0.5 ],
+							"to": [ 5.5, 5.5, 0.5 ],
+							"uv": [ 177, 18 ],
+							"scale": [ 0.5, 0.5, 0.5 ],
+							"3d": true
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Middle",
+					"position": [ 0, -2, 0 ],
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"inherit_bend": 1,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 1, 0, -1 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -4, -2, -0.5 ],
+							"to": [ 4, 0, -0.5 ],
+							"uv": [ 20, 164 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"from": [ -4, -2, -0.25 ],
+							"to": [ 4, 0, -0.25 ],
+							"uv": [ 20, 178 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Middle (2)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -4, -2, -0.5 ],
+									"to": [ 4, 0, -0.5 ],
+									"uv": [ 20, 166 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"from": [ -4, -2, -0.25 ],
+									"to": [ 4, 0, -0.25 ],
+									"uv": [ 20, 180 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Middle (3)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -4, -2, -0.5 ],
+											"to": [ 4, 0, -0.5 ],
+											"uv": [ 20, 168 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left",
+					"position": [ -6, -2, 0 ],
+					"rotation": [ 1, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 1, 0, -3 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 16, 164 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (2)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 16, 166 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (3)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, 6 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 16, 168 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.25 ],
+											"to": [ 2, 0, -0.25 ],
+											"uv": [ 16, 182 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Hair Bend Left (4)",
+											"position": [ 0, -2, 0 ],
+											"bend": {
+												"offset": -1,
+												"size": 2,
+												"inherit_bend": 1,
+												"part": "lower",
+												"axis": [ "x", "y", "z" ]
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"from": [ -2, -2, -0.5 ],
+													"to": [ 2, 0, -0.5 ],
+													"uv": [ 16, 170 ],
+													"scale": [ 1, 1, 0.7 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "Hair Bend Left (5)",
+													"position": [ 0, -2, 0 ],
+													"bend": {
+														"offset": -1,
+														"size": 2,
+														"inherit_bend": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ]
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -2, -2, -0.5 ],
+															"to": [ 2, 0, -0.5 ],
+															"uv": [ 16, 172 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"from": [ -2, -2, -0.25 ],
+															"to": [ 2, 0, -0.25 ],
+															"uv": [ 16, 186 ],
+															"3d": true
+														}
+													],
+													"parts": [
+														{
+															"name": "Hair Bend Left (6)",
+															"position": [ 0, -2, 0 ],
+															"bend": {
+																"offset": -1,
+																"size": 2,
+																"inherit_bend": 1,
+																"part": "lower",
+																"axis": [ "x", "y", "z" ]
+															},
+															"shapes": [
+																{
+																	"type": "plane",
+																	"from": [ -2, -2, -0.5 ],
+																	"to": [ 2, 0, -0.5 ],
+																	"uv": [ 16, 174 ],
+																	"3d": true
+																},
+																{
+																	"type": "plane",
+																	"from": [ -2, -2, -0.25 ],
+																	"to": [ 2, 0, -0.25 ],
+																	"uv": [ 16, 188 ],
+																	"3d": true
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Right",
+					"position": [ 6, -2, 0 ],
+					"rotation": [ 1, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 1, 0, 3 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 28, 164 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Right (2)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 28, 166 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Right (3)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, -6 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 28, 168 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.25 ],
+											"to": [ 2, 0, -0.25 ],
+											"uv": [ 28, 182 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Hair Bend Right (4)",
+											"position": [ 0, -2, 0 ],
+											"bend": {
+												"offset": -1,
+												"size": 2,
+												"inherit_bend": 1,
+												"part": "lower",
+												"axis": [ "x", "y", "z" ]
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"from": [ -2, -2, -0.5 ],
+													"to": [ 2, 0, -0.5 ],
+													"uv": [ 28, 170 ],
+													"scale": [ 1, 1, 0.7 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "Hair Bend Right (5)",
+													"position": [ 0, -2, 0 ],
+													"bend": {
+														"offset": -1,
+														"size": 2,
+														"inherit_bend": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ]
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -2, -2, -0.5 ],
+															"to": [ 2, 0, -0.5 ],
+															"uv": [ 28, 172 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"from": [ -2, -2, -0.25 ],
+															"to": [ 2, 0, -0.25 ],
+															"uv": [ 28, 186 ],
+															"3d": true
+														}
+													],
+													"parts": [
+														{
+															"name": "Hair Bend Right (6)",
+															"position": [ 0, -2, 0 ],
+															"bend": {
+																"offset": -1,
+																"size": 2,
+																"inherit_bend": 1,
+																"part": "lower",
+																"axis": [ "x", "y", "z" ]
+															},
+															"shapes": [
+																{
+																	"type": "plane",
+																	"from": [ -2, -2, -0.5 ],
+																	"to": [ 2, 0, -0.5 ],
+																	"uv": [ 28, 174 ],
+																	"3d": true
+																},
+																{
+																	"type": "plane",
+																	"from": [ -2, -2, -0.25 ],
+																	"to": [ 2, 0, -0.25 ],
+																	"uv": [ 28, 188 ],
+																	"3d": true
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Base",
+			"position": [ 0, 0, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ],
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -8, 0, -8 ],
+					"to": [ 8, 16, 8 ],
+					"uv": [ 108, 16 ]
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 0, 7.25 ],
+					"to": [ 8, 16, 7.25 ],
+					"uv": [ 0, 16 ],
+					"rotation": [ 0, -90, 0 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 0, 7.25 ],
+					"to": [ 8, 16, 7.25 ],
+					"uv": [ 32, 16 ],
+					"rotation": [ 0, 90, 0 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 0, 7.25 ],
+					"to": [ 8, 16, 7.25 ],
+					"uv": [ 16, 16 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 0, 7.25 ],
+					"to": [ 8, 16, 7.25 ],
+					"uv": [ 48, 16 ],
+					"rotation": [ 0, 180, 0 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 5.5, 7.25 ],
+					"to": [ 8, 10.5, 7.25 ],
+					"uv": [ 48, 27 ],
+					"position": [ 0, -5.9, 2.1 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 1.1, 1, 1.3 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, 5.5, 7.25 ],
+					"to": [ 8, 10.5, 7.25 ],
+					"uv": [ 48, 27 ],
+					"position": [ 0, -7.5, 0.6 ],
+					"rotation": [ -10.8, 180, 0 ],
+					"scale": [ 1.1, 1, 1.3 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ 0, -8, 0 ],
+					"to": [ 8, 8, 0 ],
+					"uv": [ 116, 0 ],
+					"position": [ 0, 16.5, 0 ],
+					"rotation": [ 95, 90, 90 ],
+					"scale": [ 1.00, 0.9, 0.7 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"from": [ -8, -8, 0 ],
+					"to": [ 0, 8, 0 ],
+					"uv": [ 108, 0 ],
+					"position": [ 0, 16.5, 0 ],
+					"rotation": [ 85, 90, 90 ],
+					"scale": [ 1.00, 0.9, 0.7 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Hair Bend Left (7)",
+					"position": [ -7.5, 11.7, 0 ],
+					"rotation": [ -17.5, -90, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ -17.52026, 0, 3.14267 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 20, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (8)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ 41.93256, 0, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 20, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (9)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, 6 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 20, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left (10)",
+					"position": [ -6, 15.4, 7.4 ],
+					"rotation": [ -54.7, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 37.44302, 0, 3.14267 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 20, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (11)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ -20.75479, 0, -26.58114 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 20, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (12)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, 45.88449 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 20, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left (19)",
+					"position": [ 5.2, 12.7, 7.4 ],
+					"rotation": [ -54.7, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 37.44302, 0, 4.92986 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 24, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (20)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ -20.75479, 13.11707, 38.27564 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 24, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (21)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, -82.65291 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 24, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left (22)",
+					"position": [ 1.5, 12.7, 7.4 ],
+					"rotation": [ -54.7, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 37.44302, 0, 23.27005 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 24, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (23)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ -20.75479, 13.11707, 66.65775 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 24, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (24)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, -116.35282 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 24, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left (13)",
+					"position": [ -2.9, 15.4, 7.4 ],
+					"rotation": [ -54.7, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ 37.44302, 0, 27.90596 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 20, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (14)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ -20.75479, 0, -62.33969 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 20, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (15)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, 45.88449 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 20, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Hair Bend Left (16)",
+					"position": [ -2.9, 15.4, 7.4 ],
+					"rotation": [ -128, 0, 0 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -1,
+						"size": 2,
+						"part": "lower",
+						"axis": [ "x", "y", "z" ],
+						"angle": [ -56.05295, 0, 18.85252 ]
+					},
+					"shapes": [
+						{
+							"type": "plane",
+							"from": [ -2, -2, -0.5 ],
+							"to": [ 2, 0, -0.5 ],
+							"uv": [ 20, 162 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair Bend Left (17)",
+							"position": [ 0, -2, 0 ],
+							"bend": {
+								"offset": -1,
+								"size": 2,
+								"inherit_bend": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ -17.3909, 0, -62.33969 ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -2, -2, -0.5 ],
+									"to": [ 2, 0, -0.5 ],
+									"uv": [ 20, 164 ],
+									"scale": [ 0.9, 1, 1 ],
+									"3d": true
+								}
+							],
+							"parts": [
+								{
+									"name": "Hair Bend Left (18)",
+									"position": [ 0, -2, 0 ],
+									"bend": {
+										"offset": -1,
+										"size": 2,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ -20.40842, 0, 45.88449 ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"from": [ -2, -2, -0.5 ],
+											"to": [ 2, 0, -0.5 ],
+											"uv": [ 20, 164 ],
+											"scale": [ 0.8, 1, 0.6 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (12)",
+					"texture": "ELLIE_HAIR.png",
+					"texture_size": [ 250, 250 ],
+					"position": [ 8.09963, 12.75178, 4.90695 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ -3, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 129, 19 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 127, 19 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (13)",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ -5, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 127, 21 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 129, 21 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (22) ",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ -7, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 127, 21 ],
+											"scale": [ 2, 2, 2 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, -0.5 ],
+											"to": [ 0.125, 0, 0 ],
+											"uv": [ 129, 21 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "New part (22) (3)",
+											"position": [ 0, -1, 0 ],
+											"bend": {
+												"offset": -0.5,
+												"size": 0.4,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"angle": [ -12, 0 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -0.125, -0.5, 0 ],
+													"to": [ 0.125, 0, 0.5 ],
+													"uv": [ 127, 21 ],
+													"scale": [ 2, 2, 2 ]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (3)",
+					"texture": "ELLIE_HAIR.png",
+					"texture_size": [ 250, 250 ],
+					"position": [ 8.09963, 11.50355, 2.94891 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ 3.98334, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 129, 19 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 127, 19 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (4)",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ -5, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 127, 21 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 129, 21 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (22) (2)",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ -7, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 127, 21 ],
+											"scale": [ 2, 2, 2 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, -0.5 ],
+											"to": [ 0.125, 0, 0 ],
+											"uv": [ 129, 21 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "New part ) (2) (3)",
+											"position": [ 0, -1, 0 ],
+											"bend": {
+												"offset": -0.5,
+												"size": 0.4,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"angle": [ -12, 0 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -0.125, -0.5, 0 ],
+													"to": [ 0.125, 0, 0.5 ],
+													"uv": [ 127, 21 ],
+													"scale": [ 2, 2, 2 ]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (7)",
+					"texture": "ELLIE_HAIR.png",
+					"texture_size": [ 250, 250 ],
+					"position": [ 8.09963, 13.49536, 6.85234 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ 3.98334, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 129, 19 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 127, 19 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (8)",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ -5, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 127, 21 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 129, 21 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (22) (2) (3)",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ -7, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 127, 21 ],
+											"scale": [ 2, 2, 2 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, -0.5 ],
+											"to": [ 0.125, 0, 0 ],
+											"uv": [ 129, 21 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "New part (22) (2) (3) (4)",
+											"position": [ 0, -1, 0 ],
+											"bend": {
+												"offset": -0.5,
+												"size": 0.4,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"angle": [ -12, 0 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -0.125, -0.5, 0 ],
+													"to": [ 0.125, 0, 0.5 ],
+													"uv": [ 127, 21 ],
+													"scale": [ 2, 2, 2 ]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (5)",
+					"texture": "ELLIE_HAIR.png",
+					"texture_size": [ 250, 250 ],
+					"position": [ 8.09963, 12.79896, 1.16563 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ 12.5802, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 129, 19 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 127, 19 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (6)",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ -20.53142, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 127, 21 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 129, 21 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (23) (2) (3)",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ -7, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 127, 21 ],
+											"scale": [ 2, 2, 2 ]
+										},
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, -0.5 ],
+											"to": [ 0.125, 0, 0 ],
+											"uv": [ 129, 21 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "New part (22) (2) (3) (3)",
+											"position": [ 0, -1, 0 ],
+											"bend": {
+												"offset": -0.5,
+												"size": 0.4,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"angle": [ -12, 0 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -0.125, -0.5, 0 ],
+													"to": [ 0.125, 0, 0.5 ],
+													"uv": [ 127, 21 ],
+													"scale": [ 2, 2, 2 ]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (22)  ",
+					"position": [ 0, 16.54, 1 ],
+					"rotation": [ 0, 0, 97 ],
+					"scale": [ 1.5, 1.4, 1 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ 3, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 117, 9 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 117, 11 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (23) ",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ 3, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 119, 9 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 119, 11 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (23)  (2)",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ 3, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 121, 11 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "New part (22)   (2)",
+					"position": [ 0, 16.54, 0 ],
+					"rotation": [ 0, 180, 97 ],
+					"scale": [ 1.5, 1.4, 1 ],
+					"bend": {
+						"offset": -0.5,
+						"size": 0.4,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"angle": [ -6, 0 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, -0.5 ],
+							"to": [ 0.125, 0, 0 ],
+							"uv": [ 115, 9 ],
+							"scale": [ 2, 2, 2 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.125, -0.5, 0 ],
+							"to": [ 0.125, 0, 0.5 ],
+							"uv": [ 115, 7 ],
+							"scale": [ 2, 2, 2 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "New part (23) (2)",
+							"position": [ 0, -1, 0 ],
+							"bend": {
+								"offset": -0.5,
+								"size": 0.4,
+								"part": "lower",
+								"axis": [ "x", "z" ],
+								"angle": [ -6, 0 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, -0.5 ],
+									"to": [ 0.125, 0, 0 ],
+									"uv": [ 113, 9 ],
+									"scale": [ 2, 2, 2 ]
+								},
+								{
+									"type": "block",
+									"from": [ -0.125, -0.5, 0 ],
+									"to": [ 0.125, 0, 0.5 ],
+									"uv": [ 113, 7 ],
+									"scale": [ 2, 2, 2 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "New part (23)  (2) (2)",
+									"position": [ 0, -1, 0 ],
+									"bend": {
+										"offset": -0.5,
+										"size": 0.4,
+										"part": "lower",
+										"axis": [ "x", "z" ],
+										"angle": [ -6, 0 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -0.125, -0.5, 0 ],
+											"to": [ 0.125, 0, 0.5 ],
+											"uv": [ 111, 7 ],
+											"scale": [ 2, 2, 2 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pig Tails",
+			"position": [ 0, 8.63901, -2.5 ],
+			"rotation": [ 360, 0, 0 ],
+			"scale": [ 1.2, 1.2, 1.2 ],
+			"parts": [
+				{
+					"name": "Pony Tail base 1",
+					"position": [ 3, -1, 0.5 ],
+					"rotation": [ 0, 15, 25.1 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, 0.13056, -1.5 ],
+							"to": [ 1.5, 1.13056, 1.5 ],
+							"uv": [ 125, 194 ],
+							"rotation": [ 0, 0, -90 ],
+							"scale": [ 0.6, 0.6, 0.6 ]
+						},
+						{
+							"type": "plane",
+							"from": [ -8.5, -8, -0.5 ],
+							"to": [ 8.5, 9, -0.5 ],
+							"uv": [ 157, 182 ],
+							"position": [ 0.1, 0, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 0.16, 0.16, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"from": [ -8.5, -8, -1.00 ],
+							"to": [ 8.5, 9, -1.00 ],
+							"uv": [ 157, 182 ],
+							"rotation": [ 0, 90, 45 ],
+							"scale": [ 0.18, 0.18, 0.8 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Pony Tail 1",
+							"position": [ 1, 0, 0 ],
+							"rotation": [ 0, 0, 75 ],
+							"bend": {
+								"offset": 0,
+								"size": 10,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ 0, 0, -15 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -1, -1, -1 ],
+									"to": [ 1, 1, 1 ],
+									"uv": [ 126, 197 ],
+									"scale": [ 0.6, 0.6, 0.6 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Pony Tail 1 (2)",
+									"position": [ 0, -0.5, 0 ],
+									"bend": {
+										"offset": 0,
+										"size": 10,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, -9.3873 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -1.5, -0.51143, -1.5 ],
+											"to": [ 1.5, 0.48857, 1.5 ],
+											"uv": [ 125, 202 ],
+											"scale": [ 0.6, 0.8, 0.6 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "Pony Tail 1 (3)",
+											"position": [ 0, -0.5, 0 ],
+											"bend": {
+												"offset": 0,
+												"size": 10,
+												"inherit_bend": 1,
+												"part": "lower",
+												"axis": [ "x", "y", "z" ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -2, -0.59476, -2 ],
+													"to": [ 2, 0.40524, 2 ],
+													"uv": [ 124, 207 ],
+													"scale": [ 0.6, 0.9, 0.6 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Pony Tail 1 (4)",
+													"position": [ 0, -0.5, 0 ],
+													"bend": {
+														"offset": 0,
+														"size": 10,
+														"inherit_bend": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ],
+														"angle": [ 0, 0, -5.43402 ]
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ -2.5, -0.5, -2.5 ],
+															"to": [ 2.5, 0.5, 2.5 ],
+															"uv": [ 123, 213 ],
+															"scale": [ 0.6, 0.9, 0.6 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Pony Tail 1 (5)",
+															"position": [ 0, -2, 0 ],
+															"bend": {
+																"offset": 0,
+																"size": 10,
+																"inherit_bend": 1,
+																"part": "lower",
+																"axis": [ "x", "y", "z" ],
+																"angle": [ 0, 0, 21.42218 ]
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ -3, -3, -3 ],
+																	"to": [ 3, 3, 3 ],
+																	"uv": [ 122, 220 ],
+																	"rotation": [ 0, 180, 0 ],
+																	"scale": [ 0.6, 0.6, 0.6 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "Pony Tail 1 (6)",
+																	"position": [ 0, -2, 0 ],
+																	"bend": {
+																		"offset": 0,
+																		"size": 10,
+																		"inherit_bend": 1,
+																		"part": "lower",
+																		"axis": [ "x", "y", "z" ],
+																		"angle": [ 0, 0, 30 ]
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"from": [ -2.5, -1, -2.5 ],
+																			"to": [ 2.5, 1, 2.5 ],
+																			"uv": [ 123, 231 ],
+																			"scale": [ 0.6, 0.9, 0.6 ]
+																		}
+																	],
+																	"parts": [
+																		{
+																			"name": "Pony Tail 1 (7)",
+																			"position": [ 0, -1, 0 ],
+																			"bend": {
+																				"offset": 0,
+																				"size": 10,
+																				"inherit_bend": 1,
+																				"part": "lower",
+																				"axis": [ "x", "y", "z" ]
+																			},
+																			"shapes": [
+																				{
+																					"type": "block",
+																					"from": [ -2, -0.5, -2 ],
+																					"to": [ 2, 0.5, 2 ],
+																					"uv": [ 124, 237 ],
+																					"scale": [ 0.6, 0.9, 0.6 ]
+																				}
+																			],
+																			"parts": [
+																				{
+																					"name": "Pony Tail 1 (8)",
+																					"position": [ 0, -0.5, 0 ],
+																					"bend": {
+																						"offset": 0,
+																						"size": 10,
+																						"inherit_bend": 1,
+																						"part": "lower",
+																						"axis": [ "x", "y", "z" ]
+																					},
+																					"shapes": [
+																						{
+																							"type": "block",
+																							"from": [ -1.5, -0.5, -1.5 ],
+																							"to": [ 1.5, 0.5, 1.5 ],
+																							"uv": [ 125, 241 ],
+																							"scale": [ 0.6, 0.9, 0.6 ]
+																						}
+																					],
+																					"parts": [
+																						{
+																							"name": "Pony Tail 1 (9)",
+																							"position": [ 0, 0, 0 ],
+																							"bend": {
+																								"offset": 0,
+																								"size": 10,
+																								"inherit_bend": 1,
+																								"part": "lower",
+																								"axis": [ "x", "y", "z" ]
+																							},
+																							"shapes": [
+																								{
+																									"type": "block",
+																									"from": [ -1, -1, -1 ],
+																									"to": [ 1, 1, 1 ],
+																									"uv": [ 126, 244 ],
+																									"scale": [ 0.6, 0.9, 0.6 ]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Pony Tail base 2",
+					"position": [ -3, -1, 0.5 ],
+					"rotation": [ 0, 165, 25.1 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, 0.13056, -1.5 ],
+							"to": [ 1.5, 1.13056, 1.5 ],
+							"uv": [ 69, 194 ],
+							"rotation": [ 0, 0, -90 ],
+							"scale": [ 0.6, 0.6, 0.6 ]
+						},
+						{
+							"type": "plane",
+							"from": [ -8.5, -8, -0.5 ],
+							"to": [ 8.5, 9, -0.5 ],
+							"uv": [ 157, 203 ],
+							"position": [ 0.1, 0, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 0.16, 0.16, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"from": [ -8.5, -8, -1 ],
+							"to": [ 8.5, 9, -1 ],
+							"uv": [ 157, 203 ],
+							"rotation": [ 0, 90, 45 ],
+							"scale": [ 0.18, 0.18, 0.8 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Pony Tail 2",
+							"position": [ 1, 0, 0 ],
+							"rotation": [ 0, 0, 75 ],
+							"bend": {
+								"offset": 0,
+								"size": 10,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ],
+								"angle": [ 0, 0, -15 ]
+							},
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -1, -1, -1 ],
+									"to": [ 1, 1, 1 ],
+									"uv": [ 70, 197 ],
+									"scale": [ 0.6, 0.6, 0.6 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "Pony Tail 1 (11)",
+									"position": [ 0, -0.5, 0 ],
+									"bend": {
+										"offset": 0,
+										"size": 10,
+										"inherit_bend": 1,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ],
+										"angle": [ 0, 0, -9.3873 ]
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -1.5, -0.51143, -1.5 ],
+											"to": [ 1.5, 0.48857, 1.5 ],
+											"uv": [ 69, 202 ],
+											"scale": [ 0.6, 0.8, 0.6 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "Pony Tail 1 (12)",
+											"position": [ 0, -0.5, 0 ],
+											"bend": {
+												"offset": 0,
+												"size": 10,
+												"inherit_bend": 1,
+												"part": "lower",
+												"axis": [ "x", "y", "z" ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -2, -0.59476, -2 ],
+													"to": [ 2, 0.40524, 2 ],
+													"uv": [ 68, 207 ],
+													"scale": [ 0.6, 0.9, 0.6 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "Pony Tail 1 (13)",
+													"position": [ 0, -0.5, 0 ],
+													"bend": {
+														"offset": 0,
+														"size": 10,
+														"inherit_bend": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ],
+														"angle": [ 0, 0, -5.43402 ]
+													},
+													"shapes": [
+														{
+															"type": "block",
+															"from": [ -2.5, -0.5, -2.5 ],
+															"to": [ 2.5, 0.5, 2.5 ],
+															"uv": [ 67, 213 ],
+															"scale": [ 0.6, 0.9, 0.6 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "Pony Tail 1 (14)",
+															"position": [ 0, -2, 0 ],
+															"bend": {
+																"offset": 0,
+																"size": 10,
+																"inherit_bend": 1,
+																"part": "lower",
+																"axis": [ "x", "y", "z" ],
+																"angle": [ 0, 0, 21.42218 ]
+															},
+															"shapes": [
+																{
+																	"type": "block",
+																	"from": [ -3, -3, -3 ],
+																	"to": [ 3, 3, 3 ],
+																	"uv": [ 66, 220 ],
+																	"scale": [ 0.6, 0.6, 0.6 ]
+																}
+															],
+															"parts": [
+																{
+																	"name": "Pony Tail 1 (15)",
+																	"position": [ 0, -2, 0 ],
+																	"bend": {
+																		"offset": 0,
+																		"size": 10,
+																		"inherit_bend": 1,
+																		"part": "lower",
+																		"axis": [ "x", "y", "z" ],
+																		"angle": [ 0, 0, 30 ]
+																	},
+																	"shapes": [
+																		{
+																			"type": "block",
+																			"from": [ -2.5, -1, -2.5 ],
+																			"to": [ 2.5, 1, 2.5 ],
+																			"uv": [ 67, 231 ],
+																			"scale": [ 0.6, 0.9, 0.6 ]
+																		}
+																	],
+																	"parts": [
+																		{
+																			"name": "Pony Tail 1 (16)",
+																			"position": [ 0, -1, 0 ],
+																			"bend": {
+																				"offset": 0,
+																				"size": 10,
+																				"inherit_bend": 1,
+																				"part": "lower",
+																				"axis": [ "x", "y", "z" ]
+																			},
+																			"shapes": [
+																				{
+																					"type": "block",
+																					"from": [ -2, -0.5, -2 ],
+																					"to": [ 2, 0.5, 2 ],
+																					"uv": [ 68, 237 ],
+																					"scale": [ 0.6, 0.9, 0.6 ]
+																				}
+																			],
+																			"parts": [
+																				{
+																					"name": "Pony Tail 1 (17)",
+																					"position": [ 0, -0.5, 0 ],
+																					"bend": {
+																						"offset": 0,
+																						"size": 10,
+																						"inherit_bend": 1,
+																						"part": "lower",
+																						"axis": [ "x", "y", "z" ]
+																					},
+																					"shapes": [
+																						{
+																							"type": "block",
+																							"from": [ -1.5, -0.5, -1.5 ],
+																							"to": [ 1.5, 0.5, 1.5 ],
+																							"uv": [ 69, 241 ],
+																							"scale": [ 0.6, 0.9, 0.6 ]
+																						}
+																					],
+																					"parts": [
+																						{
+																							"name": "Pony Tail 1 (18)",
+																							"position": [ 0, 0, 0 ],
+																							"bend": {
+																								"offset": 0,
+																								"size": 10,
+																								"inherit_bend": 1,
+																								"part": "lower",
+																								"axis": [ "x", "y", "z" ]
+																							},
+																							"shapes": [
+																								{
+																									"type": "block",
+																									"from": [ -1, -1, -1 ],
+																									"to": [ 1, 1, 1 ],
+																									"uv": [ 70, 244 ],
+																									"scale": [ 0.6, 0.9, 0.6 ]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
